@@ -1,0 +1,19 @@
+#常见数据类型 --->type()
+print("Hello")
+print(type("Hello"))
+print(type(10))
+print(type(True))
+print(type(False))
+print(type(None))
+print(type(3.14))
+
+
+
+num = -100
+print(type(num))
+
+#常见数据类型 --->isinstance(数据，类型)
+#其返回值为bool值，如果是：True,否则：False
+print(isinstance(num,int))
+print(isinstance(num,float))
+print(isinstance(num,bool))
